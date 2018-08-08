@@ -11,7 +11,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Menu.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Menu.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -26,15 +26,52 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SFXManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/SFXManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <marker date="1533700635018" expanded="false" signature="6:78" ph="..." />
+                <marker date="1533700635018" expanded="true" signature="119:286" ph="{...}" />
+                <marker date="1533700635018" expanded="true" signature="166:212" ph="{...}" />
+                <marker date="1533700635018" expanded="true" signature="238:282" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonManager.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/ButtonManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <marker date="1533701712257" expanded="true" signature="6:132" ph="..." />
+                <marker date="1533701712257" expanded="true" signature="226:506" ph="{...}" />
+                <marker date="1533701712257" expanded="true" signature="339:398" ph="{...}" />
+                <marker date="1533701712257" expanded="true" signature="449:503" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/SFXManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ButtonManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/SFXManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ButtonManager.cs" />
       </list>
     </option>
   </component>
@@ -53,16 +90,13 @@
     <option name="width" value="1200" />
     <option name="height" value="646" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -74,6 +108,10 @@
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
       </pane>
     </panes>
   </component>
@@ -111,11 +149,12 @@
       <updated>1533516991449</updated>
       <workItem from="1533517011816" duration="57000" />
       <workItem from="1533517825399" duration="592000" />
+      <workItem from="1533700128808" duration="1579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="649000" />
+    <option name="totallyTimeSpent" value="2228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -134,12 +173,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
-      <window_info anchor="bottom" id="Unity" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="8" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -165,6 +204,19 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1533517079491" expanded="true" signature="6:78" ph="..." />
+            <marker date="1533517079491" expanded="true" signature="113:204" ph="{...}" />
+            <marker date="1533517079491" expanded="true" signature="131:140" ph="{...}" />
+            <marker date="1533517079491" expanded="true" signature="194:202" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
           <folding>
             <marker date="1533517079491" expanded="true" signature="6:78" ph="..." />
@@ -184,6 +236,32 @@
             <marker date="1533517079491" expanded="true" signature="113:204" ph="{...}" />
             <marker date="1533517079491" expanded="true" signature="131:140" ph="{...}" />
             <marker date="1533517079491" expanded="true" signature="194:202" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/SFXManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1533700635018" expanded="false" signature="6:78" ph="..." />
+            <marker date="1533700635018" expanded="true" signature="119:286" ph="{...}" />
+            <marker date="1533700635018" expanded="true" signature="166:212" ph="{...}" />
+            <marker date="1533700635018" expanded="true" signature="238:282" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/ButtonManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <marker date="1533701712257" expanded="true" signature="6:132" ph="..." />
+            <marker date="1533701712257" expanded="true" signature="226:506" ph="{...}" />
+            <marker date="1533701712257" expanded="true" signature="339:398" ph="{...}" />
+            <marker date="1533701712257" expanded="true" signature="449:503" ph="{...}" />
           </folding>
         </state>
       </provider>

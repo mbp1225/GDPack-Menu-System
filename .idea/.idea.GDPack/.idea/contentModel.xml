@@ -24,7 +24,9 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="UI" t="Include">
+            <e p="ButtonManager.cs" t="Include" />
             <e p="Menu.cs" t="Include" />
+            <e p="SFXManager.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
