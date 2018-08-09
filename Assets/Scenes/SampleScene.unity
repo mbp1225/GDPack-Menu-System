@@ -1881,7 +1881,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1110.7363, y: -124.99992}
+  m_AnchoredPosition: {x: 1110, y: -124.99992}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &81775673
@@ -1896,12 +1896,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 1833971964}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -2278,7 +2291,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 510.73627, y: -374.99994}
+  m_AnchoredPosition: {x: 510, y: -374.99994}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &92492201
@@ -2293,12 +2306,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 1246342008}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -4615,7 +4641,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &230437924
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5158,7 +5184,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 510.73627, y: -625}
+  m_AnchoredPosition: {x: 510, y: -625}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &264883156
@@ -5173,12 +5199,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 674296279}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -5863,7 +5902,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1410.7363, y: -374.99973}
+  m_AnchoredPosition: {x: 1410, y: -374.99973}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &280260089
@@ -5878,12 +5917,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 97271857}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -6157,7 +6209,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1410.7363, y: -625}
+  m_AnchoredPosition: {x: 1410, y: -625}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &294079130
@@ -6172,12 +6224,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 921325013}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -6383,7 +6448,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1110.7363, y: -625}
+  m_AnchoredPosition: {x: 1110, y: -625}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &297735480
@@ -6398,12 +6463,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 1528190533}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -6609,7 +6687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 810.73627, y: -374.99988}
+  m_AnchoredPosition: {x: 810, y: -374.99988}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &300083688
@@ -6624,12 +6702,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 54506363}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -7324,7 +7415,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 210.73627, y: -625}
+  m_AnchoredPosition: {x: 210, y: -625}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &333421778
@@ -7339,12 +7430,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 1041365389}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -8111,7 +8215,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 240.18407, y: -125}
+  m_AnchoredPosition: {x: 240, y: -125}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &398840945
@@ -8596,11 +8700,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -9356,7 +9460,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1681.2885, y: -125}
+  m_AnchoredPosition: {x: 1680, y: -125}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &482669852
@@ -10559,7 +10663,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 810.73627, y: -625}
+  m_AnchoredPosition: {x: 810, y: -625}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &551706552
@@ -10574,12 +10678,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 67354039}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -11981,7 +12098,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 720.5522, y: -125}
+  m_AnchoredPosition: {x: 720, y: -125}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &650233515
@@ -12985,11 +13102,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -13221,7 +13338,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1410.7363, y: -125}
+  m_AnchoredPosition: {x: 1410, y: -125}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &690246141
@@ -13236,12 +13353,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 3832864}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -15020,7 +15150,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 810.73627, y: -125}
+  m_AnchoredPosition: {x: 810, y: -125}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &814206328
@@ -15035,12 +15165,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 1653484995}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -15452,7 +15595,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1710.7363, y: -625}
+  m_AnchoredPosition: {x: 1710, y: -625}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &825372910
@@ -15467,12 +15610,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 1632040520}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -17806,7 +17962,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1200.9203, y: -125}
+  m_AnchoredPosition: {x: 1200, y: -125}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &954038200
@@ -18479,7 +18635,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 210.73627, y: -125}
+  m_AnchoredPosition: {x: 210, y: -125}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &995695658
@@ -18659,12 +18815,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 2079417643}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -20219,7 +20388,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1546.4725, y: -37.5}
+  m_AnchoredPosition: {x: 1545, y: -37.5}
   m_SizeDelta: {x: 250, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1061062432
@@ -20454,7 +20623,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1796.4725, y: -37.5}
+  m_AnchoredPosition: {x: 1795, y: -37.5}
   m_SizeDelta: {x: 250, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1080994524
@@ -21246,7 +21415,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -25758,7 +25927,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 210.73627, y: -375}
+  m_AnchoredPosition: {x: 210, y: -375}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1394228948
@@ -25773,12 +25942,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 1312910940}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -26550,7 +26732,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -28381,7 +28563,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 510.73627, y: -124.99992}
+  m_AnchoredPosition: {x: 510, y: -124.99992}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1507862124
@@ -28396,12 +28578,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 472883672}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -32560,7 +32755,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1110.7363, y: -374.99982}
+  m_AnchoredPosition: {x: 1110, y: -374.99982}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1719552118
@@ -32575,12 +32770,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 1691958483}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -35615,7 +35823,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1710.7363, y: -374.9997}
+  m_AnchoredPosition: {x: 1710, y: -374.9997}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1976069388
@@ -35630,12 +35838,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 2036861751}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
@@ -36212,7 +36433,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1710.7363, y: -124.99992}
+  m_AnchoredPosition: {x: 1710, y: -124.99992}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2028974504
@@ -36227,12 +36448,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSound: {fileID: 8300000, guid: d1fc749bd22af6c4fad28362268341e4, type: 3}
+  aSource: {fileID: 0}
   tutorial: {fileID: 1427127577}
   colors:
-  - {r: 0, g: 0.77647066, b: 1, a: 1}
-  - {r: 1, g: 0.7254902, b: 0, a: 1}
-  - {r: 0.49411768, g: 0.9960785, b: 0.003921569, a: 1}
-  - {r: 0.90196085, g: 0.17254902, b: 0.27450982, a: 1}
+  - r: 0
+    g: 0.77647066
+    b: 1
+    a: 1
+  - r: 1
+    g: 0.7254902
+    b: 0
+    a: 1
+  - r: 0.49411768
+    g: 0.9960785
+    b: 0.003921569
+    a: 1
+  - r: 0.90196085
+    g: 0.17254902
+    b: 0.27450982
+    a: 1
   indicator: {fileID: 271212325}
   gameName: Test Game
   tutorialText: Press Alt+F4 to try again
