@@ -23,7 +23,7 @@ public abstract class ButtonManager : MonoBehaviour, ISelectHandler
 
     public void OnSelect(BaseEventData eventData)
     {
-        indicator.color = colors[Random.Range(0,3)];
+        if(hasColorSwapping) indicator.color = colors[Random.Range(0,colors.Length-1)];
         aSource.PlayOneShot(selectSound);
     }
 
