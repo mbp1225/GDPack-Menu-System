@@ -4553,7 +4553,7 @@ GameObject:
   - component: {fileID: 228063345}
   - component: {fileID: 228063348}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5097,7 +5097,7 @@ GameObject:
   - component: {fileID: 240544678}
   - component: {fileID: 240544681}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Freeplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10081,9 +10081,8 @@ MonoBehaviour:
     firstButton: {fileID: 1157119447}
     previousMenu: startup
   currentOverlay:
-    menuTransform: {fileID: 0}
+    overlayTransform: {fileID: 0}
     firstButton: {fileID: 0}
-    previousMenu: 
   startUpMenu:
     menuTransform: {fileID: 682815621}
     firstButton: {fileID: 1157119447}
@@ -10101,16 +10100,16 @@ MonoBehaviour:
     firstButton: {fileID: 995695656}
     previousMenu: main
   controllerOverlay:
-    overlayTransform: {fileID: 0}
+    overlayTransform: {fileID: 2146487212}
     firstButton: {fileID: 0}
   confirmOverlay:
-    overlayTransform: {fileID: 0}
-    firstButton: {fileID: 0}
+    overlayTransform: {fileID: 2104784327}
+    firstButton: {fileID: 248198424}
   medleyOverlay:
-    overlayTransform: {fileID: 0}
+    overlayTransform: {fileID: 557214215}
     firstButton: {fileID: 0}
   tutorialOverlay:
-    overlayTransform: {fileID: 0}
+    overlayTransform: {fileID: 1427127576}
     firstButton: {fileID: 0}
 --- !u!20 &519420031
 Camera:
@@ -12888,7 +12887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &682815621
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19037,7 +19036,7 @@ GameObject:
   - component: {fileID: 1049231798}
   - component: {fileID: 1049231800}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Medley
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19349,7 +19348,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1545, y: -37.5}
+  m_AnchoredPosition: {x: 1545.6818, y: -37.5}
   m_SizeDelta: {x: 250, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1052351640
@@ -19735,7 +19734,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1795, y: -37.5}
+  m_AnchoredPosition: {x: 1795.6818, y: -37.5}
   m_SizeDelta: {x: 250, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1080035464
@@ -20177,7 +20176,7 @@ GameObject:
   - component: {fileID: 1118497958}
   - component: {fileID: 1118497961}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20281,15 +20280,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1118497959}
-        m_MethodName: Press
-        m_Mode: 1
+      - m_Target: {fileID: 519420030}
+        m_MethodName: EnableOverlay
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: confirm
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -20971,11 +20970,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -26238,11 +26237,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:

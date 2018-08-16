@@ -8,6 +8,7 @@ public class MenuController : MonoBehaviour
 	[Header("References")]
 	
 	[SerializeField] EventSystem eventSystem;
+	GameObject lastSelectedObject;
 
 	[System.Serializable]
 	private struct Menu
@@ -25,7 +26,7 @@ public class MenuController : MonoBehaviour
 	}
 
 	[SerializeField] Menu currentMenu;
-	[SerializeField] Menu currentOverlay;
+	[SerializeField] Overlay currentOverlay;
 
 	[Header("Menus")] [SerializeField] private Menu startUpMenu;
 	[SerializeField] private Menu mainMenu;
@@ -50,13 +51,10 @@ public class MenuController : MonoBehaviour
 	
 	void Update ()
 	{
-		if (Input.GetButtonDown("Cancel") && !hasActiveOverlay)
+		if (Input.GetButtonDown("Cancel"))
 		{
-			SwitchMenu(currentMenu.previousMenu);
-		}
-		if (Input.GetButtonDown("Cancel") && hasActiveOverlay)
-		{
-			currentOverlay.menuTransform.gameObject.SetActive(false);
+			if (hasActiveOverlay) currentOverlay.overlayTransform.gameObject.SetActive(false);
+			else SwitchMenu(currentMenu.previousMenu);
 		}
 	}
 
@@ -98,11 +96,46 @@ public class MenuController : MonoBehaviour
 
 	public void EnableOverlay(string overlay)
 	{
-		
+		switch (overlay)
+		{
+			case "controller":
+				hasActiveOverlay = true;
+				currentOverlay = controllerOverlay;
+				currentOverlay.overlayTransform.gameObject.SetActive(true);
+				lastSelectedObject = eventSystem.currentSelectedGameObject;
+				eventSystem.SetSelectedGameObject(currentOverlay.firstButton);
+				break;
+
+			case "confirm":
+				hasActiveOverlay = true;
+				currentOverlay = confirmOverlay;
+				currentOverlay.overlayTransform.gameObject.SetActive(true);
+				lastSelectedObject = eventSystem.currentSelectedGameObject;
+				eventSystem.SetSelectedGameObject(currentOverlay.firstButton);
+				break;
+
+			case "medley":
+				hasActiveOverlay = true;
+				currentOverlay = medleyOverlay;
+				currentOverlay.overlayTransform.gameObject.SetActive(true);
+				lastSelectedObject = eventSystem.currentSelectedGameObject;
+				eventSystem.SetSelectedGameObject(currentOverlay.firstButton);
+				break;
+
+			case "tutorial":
+				hasActiveOverlay = true;
+				currentOverlay = confirmOverlay;
+				currentOverlay.overlayTransform.gameObject.SetActive(true);
+				lastSelectedObject = eventSystem.currentSelectedGameObject;
+				eventSystem.SetSelectedGameObject(currentOverlay.firstButton);
+				break;
+		}
 	}
 
 	void DisableOverlay()
 	{
-		currentOverlay.menuTransform.gameObject.SetActive(false);
+		hasActiveOverlay = false;
+		eventSystem.SetSelectedGameObject(lastSelectedObject);
+		currentOverlay.overlayTransform.gameObject.SetActive(false);
 	}
 }
