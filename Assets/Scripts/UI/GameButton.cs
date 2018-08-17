@@ -14,9 +14,12 @@ public class GameButton : ButtonManager
 
 	[Header("Tutorial Screen Reference")]
 	[SerializeField] TutorialScreen tutorial;
+	[SerializeField] MenuController menuController;
+
 	public override void Press()
 	{
-		tutorial.gameObject.SetActive(true);
+		//tutorial.gameObject.SetActive(true);
+		menuController.EnableOverlay("tutorial");
 		tutorial.Tutorial(gameName, tutorialText, tutorialImage);
 		aSource.PlayOneShot(pressSound);
 	}

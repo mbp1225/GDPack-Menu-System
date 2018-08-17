@@ -58,9 +58,9 @@ public class MenuController : MonoBehaviour
 		}
 	}
 
-	public void toggleOverlay(string overlay)
+	public void QuitGame()
 	{
-		
+		Application.Quit();
 	}
 
 	public void SwitchMenu(string menu)
@@ -124,7 +124,7 @@ public class MenuController : MonoBehaviour
 
 			case "tutorial":
 				hasActiveOverlay = true;
-				currentOverlay = confirmOverlay;
+				currentOverlay = tutorialOverlay;
 				currentOverlay.overlayTransform.gameObject.SetActive(true);
 				lastSelectedObject = eventSystem.currentSelectedGameObject;
 				eventSystem.SetSelectedGameObject(currentOverlay.firstButton);
@@ -132,7 +132,7 @@ public class MenuController : MonoBehaviour
 		}
 	}
 
-	void DisableOverlay()
+	public void DisableOverlay()
 	{
 		hasActiveOverlay = false;
 		eventSystem.SetSelectedGameObject(lastSelectedObject);
